@@ -25,7 +25,15 @@ h5,
 p {
   margin: 0;
 }
-
+/* Изменяет фон заголовка h1 */
+.hero {
+  background-color: var(--hero-background-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -62,6 +70,8 @@ p {
 }
 .page-header {
   border-bottom: 1px solid var(--border-color);
+  max-width: 1600px;
+  margin: 0px auto;
 }
 
 /*Делает стиль логотипа logotip */
@@ -121,6 +131,8 @@ p {
 .footer-background {
   background-color: var(--hero-background-color);
   padding: 60px 0px;
+  max-width: 1600px;
+  margin: 0px auto;
 }
 /* Убираем маркеры в списках */
 ul {
@@ -172,14 +184,6 @@ ul {
   background-color: var(--accent-color);
 }
 
-/* Изменяет фон заголовка h1 */
-.hero {
-  background-color: var(--hero-background-color);
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-}
-
 /* Изменяет шрифт Эффективные решения для вашего бизнеса */
 .section-3-text-color {
   font-style: normal;
@@ -209,6 +213,8 @@ ul {
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
+  max-width: 1600px;
+  margin: 0px auto;
 }
 .features-item + .features-item {
   margin-left: 30px;
@@ -219,6 +225,8 @@ ul {
 }
 .services {
   padding-bottom: 94px;
+  max-width: 1600px;
+  margin: 0px auto;
 }
 .services-list {
   display: flex;
@@ -277,6 +285,8 @@ ul {
   background-color: var(--portfolio-button-color);
   padding-top: 94px;
   padding-bottom: 94px;
+  max-width: 1600px;
+  margin: 0px auto;
 }
 .team-list {
   display: flex;
