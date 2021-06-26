@@ -1,0 +1,252 @@
+/* body */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --text-footer: #ffffff99;
+}
+
+/*Делает стиль логотипа logotip */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--title-text-color);
+}
+/* Делает слово Studio в логотипе синим */
+.logo-span {
+  color: var(--accent-color);
+}
+
+/* Делает слово Studio в логотипе footer белым */
+.logo-span-footer {
+  color: var(--primary-white-color);
+}
+/* Делает подсветку при наведении курсора или перехода цветом для nav и footer */
+.footer-list .footer-item:hover,
+.footer-list .footer-item:focus,
+.footer-list .footer-map:hover,
+.footer-list .footer-map:focus,
+.header-list .link:active,
+.header-list .link:hover,
+.header-list .link:focus,
+.header-list-contact .link-contact:hover,
+.header-list-contact .link-contact:focus,
+.header-list .link.current,
+.header-list-contact .link-contact.current {
+  color: var(--accent-color);
+}
+
+/* Делает футер в стиле */
+.footer-list .footer-item {
+  color: #ffffff99;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+/* Делает цвет текста ссылки на карту */
+.footer-map {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+/* Делаем цвет фона footer */
+.footer-background {
+  background-color: #2f303a;
+}
+/* Убираем маркеры в списках */
+.header-list,
+.header-list-contact,
+.section-4-ul,
+.section-5-ul,
+.section-6-ul,
+.header-contact,
+.footer-list li {
+  list-style-type: none;
+}
+/* Изменяет стили и цвет header навигации */
+.link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+/* Изменяет стили и цвет header контакты */
+.link-contact {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+/* Изменяет курсор на кнопке заказать услугу в секции3 */
+.section-3-button-h1 {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* Изменяет фон заголовка h1 */
+.section-3-background {
+  background-color: #2f303a;
+}
+/* Изменяет шрифт Эффективные решения для вашего бизнеса */
+.section-3-text-color {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* Изменяет текст секции 4 заголовков h3 */
+.section-4-h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* Изменяет текст секции 4 */
+.section-4-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Изменяет текст секции 5 заголовков h2 */
+.section-5-h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Изменяет текст секции 6 заголовка h2 */
+.section-6-h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Изменяет текст секции 6 заголовков h3 имя и фамилия команды */
+.section-6-h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Изменяет текст секции 6 */
+.section-6-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Изменяет фон секции 6 */
+.section-6-background {
+  background-color: #f5f4fa;
+}
+.section-6-box-shadow {
+  background-color: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+/* Изменяет в Porffolio текст кнопок фильтра */
+.section-1-portfolio-textbutton button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.section-1-portfolio-textbutton button:hover,
+.section-1-portfolio-textbutton button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nobull {
+  list-style-type: none;
+}
+.portfolio-text a {
+  text-decoration: none;
+}
+.portfolio-text h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
