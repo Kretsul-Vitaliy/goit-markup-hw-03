@@ -83,6 +83,7 @@ p {
   font-size: 26px;
   line-height: 31px;
   color: var(--title-text-color);
+  letter-spacing: 0.03em;
 }
 /* Делает слово Studio в логотипе синим */
 .logo-span {
@@ -144,7 +145,6 @@ ul {
 .site-nav .link {
   display: block;
   padding: 32px 0;
-  color: var(--text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
